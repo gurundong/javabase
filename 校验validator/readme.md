@@ -130,7 +130,7 @@ public class CheckCaseValidator implements ConstraintValidator<CheckCase,String>
    * 默认获取classpath下的ValidationMessages.properties（或对应Locale语种的_zh_CN.properties文件），如果classpath下找不到，会读取org.hibernate.validator:hibernate-validator包下的ValidationMessages.properties
    * 示例自定义模板：com.example.CheckCase.message=Case mode must be {value}，{value}代表实际业务值
 
-
+## 参考文档：https://docs.jboss.org/hibernate/validator/4.2/reference/zh-CN/html_single/
        
 
 
